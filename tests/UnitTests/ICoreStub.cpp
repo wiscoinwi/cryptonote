@@ -9,6 +9,7 @@
 #include "CryptoNoteCore/IBlock.h"
 #include "CryptoNoteCore/VerificationContext.h"
 
+#include <algorithm>
 
 ICoreStub::ICoreStub() :
     topHeight(0),
