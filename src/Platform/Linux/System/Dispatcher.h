@@ -8,6 +8,7 @@
 #include <functional>
 #include <queue>
 #include <stack>
+#include <stdint.h>
 
 namespace System {
 

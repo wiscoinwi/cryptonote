@@ -6,6 +6,7 @@
 
 #include <vector>
 #include <boost/variant.hpp>
+#include <algorithm>
 
 #include <CryptoNote.h>
 
