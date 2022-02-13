@@ -6,7 +6,6 @@
 
 #include <numeric>
 #include <system_error>
-#include <memory>
 
 #include "CryptoNoteCore/CryptoNoteBasic.h"
 #include "CryptoNoteCore/TransactionApiExtra.h"

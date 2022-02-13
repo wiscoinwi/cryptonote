@@ -11,9 +11,6 @@
 #include "Serialization/SerializationTools.h"
 #include "version.h"
 
-#define BOOST_BIND_GLOBAL_PLACEHOLDERS
-#include <boost/bind.hpp>
-
 namespace {
   template <typename T>
   static bool print_as_json(const T& obj) {
