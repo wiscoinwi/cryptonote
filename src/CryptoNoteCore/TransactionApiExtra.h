@@ -6,7 +6,6 @@
 
 #include "CryptoNoteFormatUtils.h"
 #include "TransactionExtra.h"
-#include <algorithm>
 
 namespace CryptoNote {
 
@@ -14,7 +13,7 @@ namespace CryptoNote {
   public:
     TransactionExtra() {}
     TransactionExtra(const std::vector<uint8_t>& extra) {
-      parse(extra);
+      parse(extra);        
     }
 
     bool parse(const std::vector<uint8_t>& extra) {

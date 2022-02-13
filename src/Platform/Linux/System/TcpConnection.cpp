@@ -3,7 +3,6 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "TcpConnection.h"
-#include <stdexcept>
 
 #include <arpa/inet.h>
 #include <cassert>
